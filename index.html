@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>23127057 - JS_Video_EdgeDetection</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- OpenCV.js -->
+    <script async src="https://docs.opencv.org/4.x/opencv.js"></script>
+</head>
+
+<body>
+
+<h2 style="color: #132a5d;">23127057 - Realtime Canny Edge Detection</h2>
+
+<!-- upload video -->
+<div class="custom-file-upload">
+    <label for="videoUpload" class="custom-button">
+        <i class="fa fa-cloud-upload"></i> Upload your Video
+    </label>
+    <input id="videoUpload" type="file" accept="video/*" />
+</div>
+
+<div class="container">
+
+    <!-- KHUNG TRÁI: VIDEO -->
+    <div class="box">
+        <video id="video"
+               src="video/sample.mp4"
+               controls
+               width="480">
+        </video>
+    </div>
+
+    <!-- KHUNG PHẢI: CANVAS OUTPUT -->
+    <div class="box">
+        <canvas id="outputCanvas"></canvas>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
