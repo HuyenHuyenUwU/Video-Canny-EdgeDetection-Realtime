@@ -28,5 +28,5 @@ web_js_video_edgeDetection/
 ## Cách chạy
 ___
 - Chạy file `index.html` trên local host
-- Hoặc vào link web đã đc host bằng vercel: // cái link sẽ có sau
+- Hoặc vào link web đã đc host bằng github: https://huyenhuyenuwu.github.io/Video-Canny-EdgeDetection-Realtime/
 
