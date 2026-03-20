@@ -20,7 +20,7 @@ web_js_video_edgeDetection/
 ├── README.md
 ├── index.html
 ├── style.css
-├── script.js
+├── app.js
 └── video/
     └── sample.mp4
 ```
